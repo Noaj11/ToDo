@@ -1,0 +1,229 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a1b2c3d4e5f6...",
+    "packages": [
+        {
+            "name": "brick/math",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\Math\\": "src/"
+                }
+            }
+        },
+        {
+            "name": "dflydev/dot-access-data",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
+                "reference": "f41715465d65213d644d3141a6a93081be5d3549"
+            }
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "f9301a5b2fb1216b2b08f02ba04dc45423db6bff"
+            }
+        },
+        {
+            "name": "fakerphp/faker",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fakerphp/faker.git",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fakerphp/faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "symfony/deprecation-contracts": "^2.2|^3.0",
+                "symfony/polyfill-php80": "^1.27"
+            }
+        },
+        {
+            "name": "fruitcake/php-cors",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fruitcake/php-cors.git",
+                "reference": "3d158f36e7875f040c7a07a4e2e0ff9a0b47fa86e"
+            }
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "41042bc7ab942e4ec75fbdd34a65a89f18559c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/41042bc7ab942e4ec75fbdd34a65a89f18559c6e",
+                "reference": "41042bc7ab942e4ec75fbdd34a65a89f18559c6e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.5.3|^2.0",
+                "guzzlehttp/psr7": "^1.9.1|^2.4.5",
+                "php": "^8.1.0|^9.0",
+                "psr/http-client": "^1.0",
+                "symfony/deprecation-contracts": "^2.2|^3.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.8-dev"
+                }
+            }
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "111166291a0f8130081195ac4556a5587d7e2660"
+            }
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "2.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "45b30f99ac27b5ca93cb4831afe16285f8919a34"
+            }
+        },
+        {
+            "name": "hamcrest/hamcrest-php",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hamcrest/hamcrest-php.git",
+                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
+            }
+        },
+        {
+            "name": "illuminate/auth",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/broadcasting",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/bus",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/cache",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/collections",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/conditionable",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/config",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/console",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/container",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fe1ddeaae368518a5db121bb41d81f3a637f896c"
+            }
+        },
+        {
+            "name": "illuminate/contracts",
+            "version": "v10.40.0",
+            "source": {
+                "type": "git
